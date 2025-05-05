@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NotePad</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+    /* Contenteditable div fills the whole viewport */
+    #editor {
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+      outline: none; /* Remove focus outline */
+      padding: 20px; /* Optional user comfortable padding */
+    }
+  </style>
+</head>
+<body>
+  <div id="editor" contenteditable="true"></div>
+</body>
+</html>
+
